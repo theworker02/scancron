@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/scancron",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Scan validation gates for cron inputs before they hit prod.",
+  "bin": {
+    "scancron": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/scancron.git"
+  },
+  "homepage": "https://theworker02.github.io/scancron/",
+  "keywords": [
+    "scan",
+    "cron",
+    "validate",
+    "cli",
+    "toolkit"
+  ]
+}
